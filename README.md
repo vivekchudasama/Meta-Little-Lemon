@@ -1,7 +1,7 @@
 
 ## This project developed as part of the Meta Front-End Developer Course ##
 
-[Live App]()
+[Live App](https://meta-little-lemon-murex.vercel.app/)
 
 ## Features Showcase ## 
 - **User Authentication:** Experience the basic login/sign up functionality.
