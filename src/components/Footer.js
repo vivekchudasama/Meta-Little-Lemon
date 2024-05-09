@@ -80,7 +80,7 @@ export default function Footer() {
             {" "}
             <a
               className="text-decoration-none"
-              href="https://github.com/aeueoe"
+              href="https://github.com/vivekchudasama/"
               target="_blank"
               rel="noreferrer"
             >
