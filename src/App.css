@@ -1,0 +1,265 @@
+/* Fonts */
+:root {
+  --font-primary: "Markazi Text", serif;
+  --font-secondary: "Karla", sans-serif;
+}
+
+/* Colors */
+:root {
+  --primary-green: #495e57;
+  --primary-yellow: #f4ce14;
+  --secondary-dark: #ee9972;
+  --secondary-light: #fbdabb;
+  --highlight-dark: #333333;
+  --highlight-light: #edefee;
+}
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  margin: 1rem 6rem;
+}
+/* Nav */
+nav {
+  align-items: center;
+}
+
+nav a {
+  font-family: var(--font-secondary);
+  font-size: 1rem;
+  margin-left: 0.7rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--highlight-dark);
+}
+nav a:hover {
+  text-decoration: underline solid 4px var(--primary-yellow);
+}
+/* Basket */
+#basket {
+  color: var(--primary-green);
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  margin: 10rem auto;
+}
+
+.card i {
+  cursor: pointer;
+}
+
+/* Login */
+
+#login,
+#signup,
+#logout {
+  font-family: var(--font-secondary);
+  color: var(--primary-green);
+  font-size: 1.3rem;
+}
+#logout {
+  margin: 14rem auto;
+}
+.g-btn,
+.btn-out {
+  margin: auto;
+  margin-top: 2rem;
+}
+/* Header */
+header {
+  background-color: var(--primary-green);
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+header h1 {
+  font-family: var(--font-primary);
+  color: var(--primary-yellow);
+  font-size: 4rem;
+  font-weight: 600;
+}
+header h2 {
+  font-family: var(--font-primary);
+  color: var(--highlight-light);
+  font-size: 3rem;
+  font-weight: 600;
+}
+header p {
+  font-family: var(--font-secondary);
+  color: var(--highlight-light);
+  font-size: 1.2rem;
+}
+.btn-reserve,
+.btn-menu,
+.btn-sub,
+.btn-edit,
+.btn-book {
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--highlight-dark);
+  background-color: var(--primary-yellow);
+  border-radius: 16px;
+  border: none;
+  padding: 13px 16px;
+}
+
+/* About */
+.about h1 {
+  font-family: var(--font-primary);
+  color: var(--primary-yellow);
+  font-size: 3rem;
+  font-weight: 600;
+}
+.about h2 {
+  font-family: var(--font-primary);
+  color: var(--highlight-dark);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.about p {
+  font-family: var(--font-secondary);
+  color: var(--highlight-dark);
+  font-size: 1.2rem;
+}
+.tables-chef {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Specials */
+
+.title,
+.price {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.price {
+  color: var(--secondary-dark);
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.card-body {
+  padding: 10px 25px;
+}
+.footer-card {
+  align-items: center;
+  display: flex;
+  margin-top: auto;
+  padding: 10px 25px;
+}
+.card a {
+  color: var(--highlight-dark);
+  font-weight: 600;
+}
+.img-responsive {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+/* Reviews */
+.reviews h2 {
+  font-family: var(--font-secondary);
+  color: var(--highlight-dark);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.review-blockquote {
+  border: 2px solid var(--primary-green);
+  background-color: var(--highlight-light);
+  padding: 10px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.custom-icon {
+  color: var(--highlight-dark);
+  font-size: 2rem;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.swiper-button-prev {
+  left: 5rem;
+}
+
+.swiper-button-next {
+  right: 5rem;
+}
+
+.not-found {
+  color: var(--highlight-dark);
+  height: 70vh;
+}
+/* Footer */
+
+footer {
+  font-family: var(--font-secondary);
+  color: var(--primary-green);
+}
+footer h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+footer li {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+footer i {
+  font-size: 1.3rem;
+}
+footer a {
+  color: var(--primary-green);
+}
+
+@media (max-width: 960px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  section {
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1,
+  .about h1 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-top: 2rem;
+  }
+  header h2 {
+    font-size: 2rem;
+  }
+}
