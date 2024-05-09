@@ -9,7 +9,7 @@ export default function About() {
         <div className="row justify-content-between align-items-center">
           <div className="col-md-6">
             <h1> Little Lemon Restaurant</h1>
-            <h2>Chicago</h2>
+            <h2>India</h2>
             <div className="">
               <img
                 className="img-fluid mx-auto d-sm-none rounded-4"
